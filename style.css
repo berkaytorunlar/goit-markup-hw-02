@@ -41,7 +41,6 @@ a:visited {
 .card {
     background-color: #2E2F42;
     color: white;
-    width: full;
     height: 600px;
     display: flex;
     align-items: center;
@@ -73,7 +72,9 @@ a:visited {
     width: 100%;
     height: 25vh;
     font-size: 20px;
-    gap: 12vh;
+    gap: 50px;
+    padding: 70px 30px;
+
 }
 
 .component {
@@ -148,7 +149,71 @@ footer {
     font-family: "Raleway", serif;
 }
 
+.footer-text p {
+    font-weight: 100;
+    line-height: 30px;
+}
+
 .web {
     color: #4D5AE5;
     font-weight: 700;
+}
+
+
+.our-portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.our-portfolio h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.cards {
+    flex: 1 1 calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 50px;
+    width: 360px;
+    height: 420px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.cards h3 {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.cards p {
+    font-size: 1rem;
+    color: #888;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: 'Roboto',sans-serif;
 }
